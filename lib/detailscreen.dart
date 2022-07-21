@@ -29,7 +29,7 @@ class DetailScreen extends StatelessWidget {
                 children: <Widget>[
                   Column(
                     children: <Widget>[
-                      Icon(Icons.calendar_today),
+                      Icon(Icons.calendar_today, color: Colors.green[500],),
                       SizedBox(height: 8.0,),
                       Text('Open Everyday'),
                     ],
@@ -37,7 +37,7 @@ class DetailScreen extends StatelessWidget {
 
                   Column(
                     children: <Widget>[
-                      Icon(Icons.access_time),
+                      Icon(Icons.access_time, color: Colors.green[500],),
                       SizedBox(height: 8.0,),
                       Text('09:00 - 20:00'),
                     ],
@@ -45,7 +45,7 @@ class DetailScreen extends StatelessWidget {
 
                   Column(
                     children: <Widget>[
-                      Icon(Icons.monetization_on),
+                      Icon(Icons.monetization_on, color: Colors.green[500],),
                       SizedBox(height: 8.0,),
                       Text('Rp. 25.000'),
                     ],
