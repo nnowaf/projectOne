@@ -37,13 +37,12 @@ class DetailWebPage extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Column(
-                        children: [
+                        children: <Widget>[
                           ClipRRect(
-                            child: Hero(
-                              tag: place.imageAsset, 
-                              child: Image.asset(place.imageAsset)),
-                            borderRadius: BorderRadius.circular(10),
+                              child: Image.asset(place.imageAsset),
+                              borderRadius: BorderRadius.circular(10),
                           ),
+                          
                           SizedBox(height: 16,),
                           Container(
                             height: 150,

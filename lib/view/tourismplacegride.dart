@@ -29,11 +29,9 @@ class TourismPlaceGrid extends StatelessWidget {
               child: Card(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
+                  children: <Widget>[
                     Expanded(
-                      child: Hero(
-                        tag: place.imageAsset, 
-                        child: Image.asset(place.imageAsset, fit: BoxFit.cover,),),
+                      child: Image.asset(place.imageAsset, fit: BoxFit.cover,),
                     ),
                     SizedBox(height: 8,),
                     Padding(

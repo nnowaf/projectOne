@@ -17,9 +17,7 @@ class TourismPlaceList extends StatelessWidget {
                 children: <Widget>[
                   Expanded(
                     flex: 1,
-                    child: Hero(
-                      tag: dataPlace.imageAsset, 
-                      child: Image.asset(dataPlace.imageAsset)),
+                    child:  Image.asset(dataPlace.imageAsset)
                   ),
                   
                   Expanded(

@@ -17,10 +17,7 @@ class DetailMobilePage extends StatelessWidget {
             children: <Widget>[
               Stack(
                 children: [
-                  Hero(
-                    tag: place.imageAsset, 
-                    child: Image.asset(place.imageAsset),
-                  ),
+                  Image.asset(place.imageAsset),
                   SafeArea(
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
